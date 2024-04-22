@@ -61,7 +61,7 @@ describe("Mouse Operations", () => {
         cy.get(':nth-child(1) > tbody > :nth-child(86) > "nth-child(1) > img').should('be.visible');
 
         cy.get(':nth-child(1) > tbody > :nth-child(4) > "nth-child(1) > img').scrollIntoView({duration:2000});
-        cy.get(':nth-child(1) > tbody > :nth-child(4) > "nth-child(1) > img').should('be.visible');
+        cy.get(':nth-child(1) > tbody > :nth-child(4) > "nth-child(1) > img').should('be.visible')
 
     })
 })
